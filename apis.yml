@@ -1,7 +1,18 @@
 aid: draftpilotai
 name: DraftPilot.ai
-description: DraftPilot.ai is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  DraftPilot.ai is an AI-powered contract redlining product for in-house legal
+  teams, delivered as a Microsoft Word add-in. It reviews and marks up contracts
+  against a company's own playbooks in minutes, flagging issues and suggesting
+  edits as tracked changes directly inside Word, with no CLM change required.
+  DraftPilot can generate playbooks from template contracts or prior mark-ups,
+  redraft clauses, and onboard in about three minutes. Founded in 2024 and based
+  in London (Daniel Van Binsbergen, founder of Lexoo), the company is backed by
+  500 Global and was selected by Axiom to power its Tech+Talent AI contracting
+  initiative. It maintains SOC 2 Type II and ISO 27001 certifications, AES-256
+  encryption at rest, TLS in transit, GDPR/UK GDPR compliance, and does not use
+  customer data for model training. DraftPilot does not publish a public API,
+  SDKs, or developer documentation; it is a productized legal-AI application.
 url: https://raw.githubusercontent.com/api-evangelist/draftpilotai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.draftpilot.ai/open-graph/home.png
 tags:
 - Company
+- Legal
+- Legal Tech
+- Contracts
+- Contract Review
+- Contract Redlining
+- Artificial Intelligence
+- Document Automation
+- Microsoft Word
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +52,32 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/draftpilotai-trust-center.yml
+- type: DomainSecurity
+  url: security/draftpilotai-domain-security.yml
 - type: Website
-  url: https://info.lexoo.com
+  url: https://draftpilot.ai
+- type: Pricing
+  url: https://draftpilot.ai/pricing
+- type: SignUp
+  url: https://draftpilot.ai/request-demo
+- type: Support
+  url: https://draftpilot.ai/support
+- type: HelpCenter
+  url: https://draftpilot.frontkb.com/
+- type: PrivacyPolicy
+  url: https://draftpilot.ai/privacy-policy
+- type: TermsOfService
+  url: https://draftpilot.ai/terms-and-conditions
+- type: StatusPage
+  url: https://status.draftpilot.ai
+- type: Compliance
+  url: https://trust.draftpilot.ai/
+- type: Blog
+  url: https://draftpilot.substack.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
