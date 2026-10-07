@@ -1,0 +1,39 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://draftpilot.ai/pricing
+sources:
+- https://draftpilot.ai/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: per-seat
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Page offers price display in GBP/EUR/USD; text shows GBP figures. Minimum 3 users for Pro.
+plan_count: 2
+currency: GBP
+plans:
+- name: DraftPilot Pro
+  price_text: from £7,200 per year
+  price: 7200
+  currency: GBP
+  period: year
+  unit: team package (minimum 3 users)
+  included_quota: Unlimited everyday use; AI contract review and redlining; AI chat; unlimited custom
+    playbooks; team workspaces and permissions; SSO and SCIM; onboarding and Customer Success; playbook
+    optimization; cited legal research; mass review with included capacity and optional top-ups; document
+    operations; multilingual review. Equivalent to £2,400 per user per year (£200 per user per month,
+    billed annually). Plus Customer Success Advisory Fee.
+  overage: optional top-up packages for Mass Review capacity
+- name: DraftPilot Enterprise
+  price_text: Custom package
+  period: none
+  included_quota: Everything in Pro; flexible organization-wide package; tailored enterprise deployment
+    and adoption program; ongoing product partnership and roadmap influence; executive business reviews
+    and usage insights; custom playbook optimization and governance support
