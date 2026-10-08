@@ -37,3 +37,25 @@ plans:
   included_quota: Everything in Pro; flexible organization-wide package; tailored enterprise deployment
     and adoption program; ongoing product partnership and roadmap influence; executive business reviews
     and usage insights; custom playbook optimization and governance support
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - hybrid
+  units: []
+  plans:
+  - name: DraftPilot Pro
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - other
+    periods:
+    - year
+  - name: DraftPilot Enterprise
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
