@@ -64,6 +64,102 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-DraftPilot.ai is a company surfaced as a portfolio company of 500-global and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+DraftPilot.ai is an AI-powered contract redlining product for in-house legal teams, delivered as a Microsoft Word add-in. It reviews and marks up contracts against a company's own playbooks in minutes, flagging issues and suggesting edits as tracked changes directly inside Word, with no CLM change required. DraftPilot can generate playbooks from template contracts or prior mark-ups, redraft clauses, and onboard in about three minutes. Founded in 2024 and based in London (Daniel Van Binsbergen, founder of Lexoo), the company is backed by 500 Global and was selected by Axiom to power its Tech+Talent AI contracting initiative. It maintains SOC 2 Type II and ISO 27001 certifications, AES-256 encryption at rest, TLS in transit, GDPR/UK GDPR compliance, and does not use customer data for model training. DraftPilot does not publish a public API, SDKs, or developer documentation; it is a productized legal-AI application.
 
-Backed by: 500-global — https://info.lexoo.com
+**Areas:** Company · Legal · Legal Tech · Contracts · Contract Review · Contract Redlining · Artificial Intelligence · Document Automation · Microsoft Word
+
+## DraftPilot.ai on APIs.io
+
+Everything profiled for DraftPilot.ai is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/draftpilotai/](https://apis.io/providers/draftpilotai/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [draftpilotai](https://apis.io/servers/draftpilotai/draftpilotai/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Draftpilotai Domain Security](https://apis.io/security/draftpilotai/draftpilotai-domain-security/)
+- [Draftpilotai Trust Center](https://apis.io/security/draftpilotai/draftpilotai-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Draftpilotai Plans Pricing](https://apis.io/plans/draftpilotai/draftpilotai-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://draftpilot.ai)
+- [Pricing](https://draftpilot.ai/pricing)
+- [Sign up](https://draftpilot.ai/request-demo)
+- [Support](https://draftpilot.ai/support)
+- [Blog](https://draftpilot.substack.com)
+- [Compliance](https://trust.draftpilot.ai/)
+- [Terms of service](https://draftpilot.ai/terms-and-conditions)
+- [Privacy policy](https://draftpilot.ai/privacy-policy)
+- [Status](https://status.draftpilot.ai)
+
+## API Evangelist rating
+
+**Kin Score 24.3** — emerging · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 51.7 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 81.6 |
+
+**Agent readiness 12.2** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/draftpilotai/](https://apis.io/providers/draftpilotai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for DraftPilot.ai: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/draftpilotai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
